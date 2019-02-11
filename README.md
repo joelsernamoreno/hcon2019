@@ -10,9 +10,11 @@ Requirements:
 - Basic keylogger example code: https://github.com/joelsernamoreno/hcon2019
 
 
+
+
 Connect:
 
-Arduino ProMicro	USB Host
+Arduino ProMicro  USB Host
 MISO (PIN 14)    -----> MISO
 MOSI (PIN 16)    -----> MOSI
 SCK (PIN 15)     -----> SCK
@@ -24,6 +26,8 @@ USB Host		USB Host
 Reset		------> VCC
 
 In the directory images of this git, you can see the images corresponding to the connection
+
+
 
 
 Installation:
@@ -43,6 +47,8 @@ Installation:
 6.- Open sketch basic_keylogger.ino
 
 7.- Compile and upload
+
+
 
 
 Demo:
