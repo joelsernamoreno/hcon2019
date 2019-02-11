@@ -1,7 +1,9 @@
 # hcon2019
 Simple hardware keylogger storing keys at internal eeprom
 
-Requirements:
+![Alt text](/images/demo.png?raw=true "ProMicro pinout")
+
+**Requirements:**
 
 - Arduino PRO micro 3.3V
 - USB host shield
@@ -10,23 +12,22 @@ Requirements:
 - Basic keylogger example code: https://github.com/joelsernamoreno/hcon2019
 
 
-Connect:
-
-Arduino ProMicro	USB Host
-MISO (PIN 14)    -----> MISO
-MOSI (PIN 16)    -----> MOSI
-SCK (PIN 15)     -----> SCK
-SS (PIN 10)	 -----> SS
-3.3v (VCC)	 -----> VCC
-GND		 -----> GND
-
-USB Host		USB Host
-Reset		------> VCC
-
-In the directory images of this git, you can see the images corresponding to the connection
 
 
-Installation:
+**Connect:**
+![Alt text](/images/connect.png?raw=true "USB Host pinout")
+
+
+**USB Host pinout:**
+![Alt text](/images/usb_host.jpg?raw=true "USB Host pinout")
+
+
+**Arduino ProMicro pinout:**
+
+![Alt text](/images/promicro.png?raw=true "ProMicro pinout")
+
+
+**Installation:**
 
 1.- Download the arduino IDE and this repository
 
@@ -45,7 +46,9 @@ Installation:
 7.- Compile and upload
 
 
-Demo:
+
+
+**Demo:**
 
 1.- When the code is uploaded, open the serial monitor
 
